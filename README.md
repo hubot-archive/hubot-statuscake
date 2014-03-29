@@ -14,7 +14,7 @@ Then, edit your `external-scripts.json` and add `"hubot-statuscake"` within the 
 ["hubot-statuscake"]
 ```
 
-## Configuration
+## Configuration on Hubot's Server
 
 There are three environment variables: `STATUSCAKE_MESSAGE`, `STATUSCAKE_ROOM`, and `STATUSCAKE_TOKEN`.
 
@@ -27,12 +27,22 @@ Important note: HTML entities are encoded by Mustache by default, so if you don'
 
 `STATUSCAKE_TOKEN` is your user token. It is the MD5 sum of your username appended to your API key. This *must* be set. Otherwise, no messages will be sent. Default is an empty string.
 
-# Tests
+## Configuration on StatusCake
+
+`hubot-statuscake` reponds to a POST request sent from StatusCake using their Ping URL mechanism. `hubot-statuscake` checks for a POST request on the `/statuscake` route.
+
+To configure StatusCake, in a new or existing contact group, you will need to add the Ping URL that `hubot-statuscake` will be responding to.
+
+To determine your Ping URL: If your Hubot is being hosted at `http://www.thisismyhubot.com`, the Ping URL you would use would be `http://www.thisismyhubot.com/statuscake` 
+
+After you enter your Ping URL, save the contact group. StatusCake will now be sending requests to your Hubot.
+
+## Tests
 
 To run the test suite, you can checkout the repository and run `npm test`.
 
 You can also run the test suite if the package is installed by running `npm test hubot-statuscake`.
 
-# License
+## License
 
 License is MIT. See `LICENSE` for more details.
