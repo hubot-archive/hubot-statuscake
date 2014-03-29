@@ -1,0 +1,40 @@
+{
+  "name": "hubot-statuscake",
+  "description": "Use hubot to send StatusCake status messages to your chat room.",
+  "version": "0.0.1",
+  "author": "Sean Brewer <seabre986@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "statuscake"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seabre/hubot-statuscake.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/seabre/hubot-statuscake/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "mustache": "~0.8.1"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
