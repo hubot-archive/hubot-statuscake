@@ -2,7 +2,7 @@
   "name": "hubot-statuscake",
   "description": "Use hubot to send StatusCake status messages to your chat room.",
   "version": "0.0.1",
-  "author": "Sean Brewer <seabre986@gmail.com>",
+  "author": "Sean Brewer <sean@saidigital.co>",
   "license": "MIT",
 
   "keywords": [
