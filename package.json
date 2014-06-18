@@ -1,8 +1,8 @@
 {
   "name": "hubot-statuscake",
   "description": "Use hubot to send StatusCake status messages to your chat room.",
-  "version": "0.0.2",
-  "author": "Sean Brewer <sean@saidigital.co>",
+  "version": "0.0.3",
+  "author": "Sean Brewer <seabre986@gmail.com>",
   "license": "MIT",
 
   "keywords": [
@@ -13,11 +13,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/seabre/hubot-statuscake.git"
+    "url": "git://github.com/hubot-scripts/hubot-statuscake.git"
   },
 
   "bugs": {
-    "url": "https://github.com/seabre/hubot-statuscake/issues"
+    "url": "https://github.com/hubot-scripts/hubot-statuscake/issues"
   },
 
   "dependencies": {

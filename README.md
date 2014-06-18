@@ -2,7 +2,7 @@
 
 Send [StatusCake](http://www.statuscake.com) status messages to your organization's chat room via [Hubot](http://hubot.github.com/).
 
-[![Build Status](https://travis-ci.org/seabre/hubot-statuscake.png?branch=master)](https://travis-ci.org/seabre/hubot-statuscake)
+[![Build Status](https://travis-ci.org/hubot-scripts/hubot-statuscake.png?branch=master)](https://travis-ci.org/seabre/hubot-statuscake)
 
 
 ## Installation
